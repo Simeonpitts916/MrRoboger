@@ -30,9 +30,9 @@ function numberfinder() {
         return;
       }
       if (number1push === "") {
-        answerParagraph.innerText = numberfinder();
-      } else {
         answerParagraph.innerText = "We need a number.";
+      } else {
+        answerParagraph.innerText = numberfinder();
       }
       return number1push;
     };
