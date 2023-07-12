@@ -3,12 +3,12 @@ function numberfinder() {
     let wordarry = [];
     for (let index = 0; index <= number1Push; index++) {
       let string = index.toString();
-      if (string.includes("1")) {
-        wordarry.push("beep!");
+      if (string.includes("3")) {
+        wordarry.push("wont you be my neighbor?");
       } else if (string.includes("2")) {
         wordarry.push("boop!");
-      } else if (string.includes("3")) {
-        wordarry.push("won't you be my neighbor?");
+      } else if (string.includes("1")) {
+        wordarry.push("beep");
       } else {
         wordarry.push(index);
       }
